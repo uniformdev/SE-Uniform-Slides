@@ -1,0 +1,6 @@
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[[edge_functions]]
+function = "context-middleware"
+path = "/*"

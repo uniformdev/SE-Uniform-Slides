@@ -1,0 +1,148 @@
+composition:
+  _name: Umbraco Partner Event, Charlotte - Email
+  _id: 3d55f266-882b-40f0-aa90-362e410e11a5
+  _slug: /emails/umbraco
+  type: email
+  parameters:
+    hubspot:
+      type: hubspot-composition
+      value:
+        path: Uniform-Canvas-Umbraco_Charlotte/emails-umbraco.html
+  slots:
+    body:
+      - _id: b5825b75-351b-4603-b823-b8d78d8dce5d
+        type: emailHeader
+        parameters:
+          ctaUrl:
+            type: text
+            value: https://uniform.dev
+          ctaText:
+            type: text
+            value: Visit Uniform!
+      - _id: 7a77c459-1ae4-4a99-9c3a-bae25fd1a596
+        type: emailHero
+        parameters:
+          content:
+            type: heartcore
+            value:
+              ids:
+                - 72cde7d6-7a8f-43ff-b44d-121981080697
+              source: default
+      - _id: 241d6c28-2fe6-4eea-ad3b-80312ac7ffd9
+        type: emailText
+        parameters:
+          content:
+            type: heartcore
+            value:
+              ids:
+                - 8a77c01f-0b0f-468d-90a5-577a0807d308
+              source: default
+      - _id: 06d4f0cb-51ed-4dfd-a6df-949fdcb1bce3
+        type: emailCta
+        variant: darkWithImage
+        parameters:
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663700414/Umbraco%20-%20Charlotte/uniformapp_200x200_u0ewqv.png
+                ratio: ''
+                width: '200'
+                format: png
+                height: '200'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663700414
+                publicId: Umbraco - Charlotte/uniformapp_200x200_u0ewqv
+                createdAt: '2022-09-20T19:00:14Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/uniformapp_200x200_u0ewqv.png
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          content:
+            type: heartcore
+            value:
+              ids:
+                - 3874449e-801d-4984-a326-b54463bbde07
+              source: default
+      - _id: 1d2f4ddf-7022-4d62-9bb2-5549c4156ccf
+        type: emailCta
+        variant: blueWithImage
+        parameters:
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663706176/Umbraco%20-%20Charlotte/BlogHeader_CobhamSatcomCaseStudy__1__m80po2.webp
+                ratio: ''
+                width: '1200'
+                format: webp
+                height: '675'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663706176
+                publicId: >-
+                  Umbraco -
+                  Charlotte/BlogHeader_CobhamSatcomCaseStudy__1__m80po2
+                createdAt: '2022-09-20T20:36:16Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/BlogHeader_CobhamSatcomCaseStudy__1__m80po2.webp
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          content:
+            type: heartcore
+            value:
+              ids:
+                - cd9c425d-5394-41df-b6fe-6de89160432d
+              source: default
+      - _id: 082d79a1-5b2c-4436-83c6-b103a3ddb7b6
+        type: emailCta
+        variant: redWithImage
+        parameters:
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663699257/Umbraco%20-%20Charlotte/BlogHeader_OrchestratingandIntegratingMACHArchitectures_abtl5t.webp
+                ratio: ''
+                width: '1200'
+                format: webp
+                height: '675'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663699257
+                publicId: >-
+                  Umbraco -
+                  Charlotte/BlogHeader_OrchestratingandIntegratingMACHArchitectures_abtl5t
+                createdAt: '2022-09-20T18:40:57Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/BlogHeader_OrchestratingandIntegratingMACHArchitectures_abtl5t.webp
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          content:
+            type: heartcore
+            value:
+              ids:
+                - ff9c925e-9a3d-4892-8aac-685fa741d511
+              source: default
+      - _id: 464d7361-f569-4c54-a3a6-7723e5730076
+        type: emailFooter
+        parameters:
+          copyright:
+            type: text
+            value: 'Uniform System Inc. '
+          legalText:
+            type: text
+            value: See you soon on https://uniform.dev
+created: '2022-09-13T08:55:18.64632+00:00'
+modified: '2022-09-20T22:14:54.872045+00:00'
+pattern: false

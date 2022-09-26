@@ -1,0 +1,19 @@
+id: emailText
+name: Email Text
+icon: mail
+parameters:
+  - id: content
+    name: Content
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        emailTextForEvent:
+          name: Email text for event
+          alias: emailTextForEvent
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-13T07:38:00.577364+00:00'
+updated: '2022-09-20T21:06:32.796593+00:00'

@@ -1,0 +1,26 @@
+id: utsSimpleBackground1
+name: UTS - Simple Background 1
+icon: >-
+  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1660903432/Uniform%20Slides/simpleBackground1_qcnx45.png
+parameters:
+  - id: slideHeadline
+    name: Slide Headline
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: entry
+    name: Entry
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        simpleBackground3Slide:
+          name: Simple Background 3 Slide
+          alias: simpleBackground3Slide
+useTeamPermissions: true
+slots: []
+titleParameter: slideHeadline
+canBeComposition: false
+created: '2022-09-12T12:11:50.94973+00:00'
+updated: '2022-09-19T14:22:27.224549+00:00'

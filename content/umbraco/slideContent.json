@@ -1,0 +1,14 @@
+{
+  "allowCultureVariant": false,
+  "alias": "slideContent",
+  "compositions": [],
+  "groups": [],
+  "name": "Slide Content",
+  "_createDate": "2022-09-08T10:21:27.633Z",
+  "_id": "d547701b-4565-4f0f-91db-fe5a8d4d2333",
+  "_updateDate": "2022-09-08T10:21:27.633Z",
+  "_links": {
+    "self": { "href": "https://api.umbraco.io/content/type/slideContent" },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

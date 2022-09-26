@@ -1,0 +1,45 @@
+{
+  "allowCultureVariant": false,
+  "alias": "darkTitleSlide",
+  "compositions": [],
+  "groups": [
+    {
+      "name": "Content",
+      "sortOrder": 0,
+      "properties": [
+        {
+          "allowCultureVariant": false,
+          "alias": "slideTitle",
+          "label": "Slide Title",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 0,
+          "validation": { "required": true }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "slideHeadline",
+          "label": "Slide Headline",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 1,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "slideText",
+          "label": "Slide Text",
+          "propertyEditorAlias": "Umbraco.TinyMCE",
+          "sortOrder": 2,
+          "validation": { "required": false }
+        }
+      ]
+    }
+  ],
+  "name": "Dark Title Slide",
+  "_createDate": "2022-09-08T10:23:27.883Z",
+  "_id": "361bf138-f019-4e04-a8f6-b8c43bbfe924",
+  "_updateDate": "2022-09-08T10:23:27.883Z",
+  "_links": {
+    "self": { "href": "https://api.umbraco.io/content/type/darkTitleSlide" },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

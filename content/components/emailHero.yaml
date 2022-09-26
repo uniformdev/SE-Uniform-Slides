@@ -1,0 +1,30 @@
+id: emailHero
+name: Email Hero
+icon: mail
+parameters:
+  - id: content
+    name: Content
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        darkTitleSlide:
+          name: Dark Title Slide
+          alias: darkTitleSlide
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-13T07:38:00.610984+00:00'
+updated: '2022-09-20T12:54:11.212531+00:00'
+variants:
+  - id: light
+    name: Light
+  - id: dark
+    name: Dark
+  - id: fractals
+    name: Fractals
+  - id: image
+    name: Image
+  - id: title
+    name: Title

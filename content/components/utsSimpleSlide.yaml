@@ -1,0 +1,27 @@
+id: utsSimpleSlide
+name: UTS - Simple Slide
+icon: >-
+  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1660905903/Uniform%20Slides/SimpleSlide_sf378o.png
+parameters:
+  - id: slideHeadline
+    name: Slide Headline
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: entry
+    name: Entry
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        simpleBackground3Slide:
+          name: Simple Background 3 Slide
+          alias: simpleBackground3Slide
+useTeamPermissions: true
+slots: []
+titleParameter: slideHeadline
+canBeComposition: false
+created: '2022-09-12T12:11:50.922975+00:00'
+updated: '2022-09-19T14:45:58.733912+00:00'

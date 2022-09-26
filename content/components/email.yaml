@@ -1,0 +1,30 @@
+id: email
+name: Email
+icon: mail
+parameters:
+  - id: hubspot
+    name: HubSpot
+    type: hubspot-composition
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: body
+    name: body
+    minComponents: 1
+    allowedComponents:
+      - emailHeader
+      - emailFooter
+      - emailHero
+      - emailResources
+      - emailCta
+      - emailText
+    inheritAllowedComponents: false
+slugSettings:
+  unique: global
+  required: 'yes'
+  regularExpression: ^\/emails\/.*$
+  regularExpressionMessage: must begin with /emails/
+canBeComposition: true
+created: '2022-09-12T12:10:38.610079+00:00'
+updated: '2022-09-13T08:54:45.812517+00:00'

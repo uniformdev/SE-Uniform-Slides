@@ -1,0 +1,22 @@
+id: visitorsfromgermany
+name: VisitorsFromGermany
+cap: 100
+crit:
+  op: '|'
+  type: G
+  clauses:
+    - key: ntl-country-code
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: DE
+    - key: ntl-country-code
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: NL
+dur: s
+description: ''
+str: 50

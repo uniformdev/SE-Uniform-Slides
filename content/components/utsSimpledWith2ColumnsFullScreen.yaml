@@ -1,0 +1,40 @@
+id: utsSimpledWith2ColumnsFullScreen
+name: UTS - Simple slide with 2 Columns Full Screen
+icon: >-
+  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1660830300/Uniform%20Slides/simpleBackground3_o3ahdw.png
+parameters:
+  - id: slideHeadline
+    name: Slide Headline
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: entry
+    name: Entry
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        simpleBackground3Slide:
+          name: Simple Background 3 Slide
+          alias: simpleBackground3Slide
+  - id: image
+    name: Image
+    type: cloudinary-media-selector
+    helpText: ''
+    typeConfig:
+      ratio: ''
+      widths: ''
+      multiSelect: false
+      defaultoptions: ''
+useTeamPermissions: true
+slots: []
+titleParameter: slideHeadline
+canBeComposition: false
+created: '2022-09-20T10:00:17.905258+00:00'
+updated: '2022-09-21T10:30:40.170033+00:00'
+variants:
+  - id: headlessisdifficult
+    name: HeadlessIsDifficult
+  - id: gartnerquote
+    name: GartnerQuote

@@ -1,0 +1,412 @@
+{
+  "_totalItems": 14,
+  "_totalPages": 2,
+  "_page": 1,
+  "_pageSize": 10,
+  "_links": {
+    "self": {
+      "href": "https://api.umbraco.io/content/2f1cf88e-bef9-49a8-83d8-55c990931f77/children?page=1&pageSize=10"
+    },
+    "content": [
+      {
+        "href": "https://api.umbraco.io/content/72cde7d6-7a8f-43ff-b44d-121981080697"
+      },
+      {
+        "href": "https://api.umbraco.io/content/0b0f15be-aae1-491d-ab38-b828554ca68d"
+      },
+      {
+        "href": "https://api.umbraco.io/content/5139a342-17b6-4649-916d-47febf785712"
+      },
+      {
+        "href": "https://api.umbraco.io/content/2ba65702-dc3b-4ee0-8dcf-00addbccc81e"
+      },
+      {
+        "href": "https://api.umbraco.io/content/40636e28-598e-4bd0-9ae3-f0716de62238"
+      },
+      {
+        "href": "https://api.umbraco.io/content/f44c15e6-0890-429f-b3c5-80750fb813b3"
+      },
+      {
+        "href": "https://api.umbraco.io/content/53af5e0a-4a93-413b-b398-c83f35b12f9b"
+      },
+      {
+        "href": "https://api.umbraco.io/content/6f8e8f26-4994-476b-9b86-166a2923e861"
+      },
+      {
+        "href": "https://api.umbraco.io/content/ff9c925e-9a3d-4892-8aac-685fa741d511"
+      },
+      {
+        "href": "https://api.umbraco.io/content/3874449e-801d-4984-a326-b54463bbde07"
+      }
+    ]
+  },
+  "_embedded": {
+    "content": [
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "End of Demo" },
+        "_updateDate": { "$invariant": "2022-09-20T09:27:21.087Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-08T10:30:11.483Z",
+        "_id": "72cde7d6-7a8f-43ff-b44d-121981080697",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/72cde7d6-7a8f-43ff-b44d-121981080697"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/72cde7d6-7a8f-43ff-b44d-121981080697/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/72cde7d6-7a8f-43ff-b44d-121981080697/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/72cde7d6-7a8f-43ff-b44d-121981080697/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/darkTitleSlide"
+          }
+        },
+        "contentTypeAlias": "darkTitleSlide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 0,
+        "slideTitle": { "$invariant": "End of Demo!!!" },
+        "slideHeadline": {
+          "$invariant": "What I did to compose this stack...."
+        },
+        "slideText": {
+          "$invariant": "<p>Let me decompose the stack for you!</p>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "What I did Slide" },
+        "_updateDate": { "$invariant": "2022-09-20T11:16:24.487Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-19T07:47:04.617Z",
+        "_id": "0b0f15be-aae1-491d-ab38-b828554ca68d",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/0b0f15be-aae1-491d-ab38-b828554ca68d"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/0b0f15be-aae1-491d-ab38-b828554ca68d/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/0b0f15be-aae1-491d-ab38-b828554ca68d/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/0b0f15be-aae1-491d-ab38-b828554ca68d/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/columnSlide"
+          }
+        },
+        "contentTypeAlias": "columnSlide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 1,
+        "column1Headline": { "$invariant": "DXC" },
+        "column1Text": {
+          "$invariant": "<ul>\n<li>Configured Uniform</li>\n<li>Added components and compositions</li>\n<li>Configured criteria for personalization</li>\n<li>Added integrations for Umbraco Heartcore and Hubspot</li>\n</ul>"
+        },
+        "column2Headline": { "$invariant": "BACKENDS" },
+        "column2Text": {
+          "$invariant": "<ul>\n<li>Umbraco Heartcore</li>\n<li>Hubspot</li>\n<li>Cloudinary</li>\n<li>Netlify</li>\n</ul>"
+        },
+        "column3Headline": { "$invariant": "DEPLOYMENT" },
+        "column3Text": {
+          "$invariant": "<ul>\n<li>Github</li>\n<li>Netlify</li>\n<li>Edge worker</li>\n<li>Data model mappings</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": {
+          "$invariant": "Digital Experience Composition (DXC) - Gartner"
+        },
+        "_updateDate": { "$invariant": "2022-09-20T10:32:32.557Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-19T12:50:26.027Z",
+        "_id": "5139a342-17b6-4649-916d-47febf785712",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/5139a342-17b6-4649-916d-47febf785712"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/5139a342-17b6-4649-916d-47febf785712/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/5139a342-17b6-4649-916d-47febf785712/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/5139a342-17b6-4649-916d-47febf785712/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 2,
+        "slideTitle": { "$invariant": "Digital Experience Composition (DXC)" },
+        "slideHeadline": { "$invariant": "DXC" },
+        "slideText": {
+          "$invariant": "<p> </p>\n<p>“DXC combines the ability to safely innovate in total experience for business and development users, while relying on and retaining the integrity of the API-packaged underlying application base.”</p>\n<p style=\"float: right;\"><img src=\"https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663666813/Umbraco%20-%20Charlotte/Gartner_logo_yuqu5w.svg\" alt=\"\" /></p>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "DXC put simply" },
+        "_updateDate": { "$invariant": "2022-09-21T10:59:58.787Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-19T14:09:09.577Z",
+        "_id": "2ba65702-dc3b-4ee0-8dcf-00addbccc81e",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/2ba65702-dc3b-4ee0-8dcf-00addbccc81e"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/2ba65702-dc3b-4ee0-8dcf-00addbccc81e/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/2ba65702-dc3b-4ee0-8dcf-00addbccc81e/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/2ba65702-dc3b-4ee0-8dcf-00addbccc81e/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 3,
+        "slideTitle": { "$invariant": "Put simply, DXC" },
+        "slideHeadline": { "$invariant": "" },
+        "slideText": {
+          "$invariant": "<ul>\n<li>Allows developers to set up digital experience architecture </li>\n<li>Allows business users to build and manage digital experiences using no-code tools</li>\n<li>Allows businesses to evolve their digital stack along with their maturity with less risk and effort</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "DXC - What Uniform does" },
+        "_updateDate": { "$invariant": "2022-09-20T11:09:28.58Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-19T14:16:22.19Z",
+        "_id": "40636e28-598e-4bd0-9ae3-f0716de62238",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/40636e28-598e-4bd0-9ae3-f0716de62238"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/40636e28-598e-4bd0-9ae3-f0716de62238/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/40636e28-598e-4bd0-9ae3-f0716de62238/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/40636e28-598e-4bd0-9ae3-f0716de62238/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 4,
+        "slideTitle": {
+          "$invariant": "DXC puts a name to what Uniform has been building from the beginning"
+        },
+        "slideHeadline": { "$invariant": "" },
+        "slideText": {
+          "$invariant": "<p> </p>\n<ul>\n<li><strong>Uniform Mesh provides composable orchestration</strong> that acts as scaffolding for composable APIs, eliminating the need for complex custom integration code that doesn't create business value</li>\n<li><strong>Uniform Canvas lets marketers, merchandisers and other business users create digital experiences without code</strong> using content from multiple legacy and headless sources, flexible front-end components, forms and anything else a business needs</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "Heartcore - why" },
+        "_updateDate": { "$invariant": "2022-09-21T12:23:22.863Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-19T14:55:19.76Z",
+        "_id": "f44c15e6-0890-429f-b3c5-80750fb813b3",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/f44c15e6-0890-429f-b3c5-80750fb813b3"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/f44c15e6-0890-429f-b3c5-80750fb813b3/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/f44c15e6-0890-429f-b3c5-80750fb813b3/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/f44c15e6-0890-429f-b3c5-80750fb813b3/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 5,
+        "slideTitle": { "$invariant": "Umbraco Heartcore" },
+        "slideHeadline": {
+          "$invariant": "A match made in heaven for Composable architectures."
+        },
+        "slideText": {
+          "$invariant": "<ul>\n<li>Uniform built and released our first Heartcore integration in June 21</li>\n<li>All the familiarity we know and love from Umbraco</li>\n<li>Headless and API driven</li>\n<li>The perfect fit for your composable architectures for the future.</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "Headless is hard" },
+        "_updateDate": { "$invariant": "2022-09-20T10:14:59.48Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-20T10:14:59.48Z",
+        "_id": "53af5e0a-4a93-413b-b398-c83f35b12f9b",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/53af5e0a-4a93-413b-b398-c83f35b12f9b"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/53af5e0a-4a93-413b-b398-c83f35b12f9b/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/53af5e0a-4a93-413b-b398-c83f35b12f9b/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/53af5e0a-4a93-413b-b398-c83f35b12f9b/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 6,
+        "slideTitle": { "$invariant": "As it turns out, headless is hard" },
+        "slideHeadline": { "$invariant": "" },
+        "slideText": {
+          "$invariant": "<ul>\n<li>Integration is a nightmare</li>\n<li>Marketers struggle to build experiences without developer support</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "Why Uniform + Heartcore" },
+        "_updateDate": { "$invariant": "2022-09-26T12:20:10.04Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-20T10:25:29.363Z",
+        "_id": "6f8e8f26-4994-476b-9b86-166a2923e861",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/6f8e8f26-4994-476b-9b86-166a2923e861"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/6f8e8f26-4994-476b-9b86-166a2923e861/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/6f8e8f26-4994-476b-9b86-166a2923e861/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/6f8e8f26-4994-476b-9b86-166a2923e861/unpublish"
+          },
+          "contenttype": {
+            "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+          }
+        },
+        "contentTypeAlias": "simpleBackground3Slide",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 7,
+        "slideTitle": { "$invariant": "Uniform and Heartcore!!!" },
+        "slideHeadline": { "$invariant": "A match made in heaven...." },
+        "slideText": {
+          "$invariant": "<ul>\n<li>Uniform is part of Umbraco's journey towards a true composable offering</li>\n<li>Umbraco Heartcore has unique abilities for modelling content</li>\n<li>Uniform open up a plethora of options for easy integration, data-mapping and experience composition for anyone working with Umbraco Heartcore.</li>\n</ul>"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "DXC Blog post" },
+        "_updateDate": { "$invariant": "2022-09-20T20:42:54.26Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-20T15:02:15.87Z",
+        "_id": "ff9c925e-9a3d-4892-8aac-685fa741d511",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/ff9c925e-9a3d-4892-8aac-685fa741d511"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/ff9c925e-9a3d-4892-8aac-685fa741d511/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/ff9c925e-9a3d-4892-8aac-685fa741d511/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/ff9c925e-9a3d-4892-8aac-685fa741d511/unpublish"
+          },
+          "contenttype": { "href": "https://api.umbraco.io/content/type/cTA" }
+        },
+        "contentTypeAlias": "cTA",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 8,
+        "title": { "$invariant": "More on DXC!" },
+        "subtitle": {
+          "$invariant": "Tame the martech chaos with DXC and MACH"
+        },
+        "ctaTitle": { "$invariant": "Read here" },
+        "ctaLink": {
+          "$invariant": "https://uniform.dev/blogs/tame-the-martech-chaos-with-dxc-and-mach"
+        }
+      },
+      {
+        "_currentVersionState": { "$invariant": "PUBLISHED" },
+        "name": { "$invariant": "Sourcecode" },
+        "_updateDate": { "$invariant": "2022-09-20T20:28:38.86Z" },
+        "_hasChildren": false,
+        "_level": 2,
+        "_createDate": "2022-09-20T18:56:25.647Z",
+        "_id": "3874449e-801d-4984-a326-b54463bbde07",
+        "_links": {
+          "self": {
+            "href": "https://api.umbraco.io/content/3874449e-801d-4984-a326-b54463bbde07"
+          },
+          "root": { "href": "https://api.umbraco.io/content" },
+          "children": {
+            "href": "https://api.umbraco.io/content/3874449e-801d-4984-a326-b54463bbde07/children"
+          },
+          "publish": {
+            "href": "https://api.umbraco.io/content/3874449e-801d-4984-a326-b54463bbde07/publish"
+          },
+          "unpublish": {
+            "href": "https://api.umbraco.io/content/3874449e-801d-4984-a326-b54463bbde07/unpublish"
+          },
+          "contenttype": { "href": "https://api.umbraco.io/content/type/cTA" }
+        },
+        "contentTypeAlias": "cTA",
+        "parentId": "2f1cf88e-bef9-49a8-83d8-55c990931f77",
+        "sortOrder": 9,
+        "title": { "$invariant": "Code from the talk" },
+        "subtitle": { "$invariant": "Download or clone the code from here" },
+        "ctaTitle": { "$invariant": "Clone on Github" },
+        "ctaLink": {
+          "$invariant": "https://github.com/uniformdev/SE-Uniform-Slides"
+        }
+      }
+    ]
+  }
+}

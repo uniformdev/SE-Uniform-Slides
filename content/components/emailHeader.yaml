@@ -1,0 +1,22 @@
+id: emailHeader
+name: Email Header
+icon: mail
+parameters:
+  - id: ctaText
+    name: CTA text
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: ctaUrl
+    name: CTA URL
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-12T12:10:38.559397+00:00'
+updated: '2022-09-13T07:40:48.86962+00:00'
+variants:
+  - id: dark
+    name: Dark

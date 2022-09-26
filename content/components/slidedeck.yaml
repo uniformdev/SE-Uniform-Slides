@@ -1,0 +1,34 @@
+id: slidedeck
+name: Slidedeck
+icon: screen
+parameters:
+  - id: slideTheme
+    name: Slide Theme
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Unpack the stack
+          value: Unpack the stack
+        - text: Composable without compromise
+          value: Composable without compromise
+      required: true
+useTeamPermissions: true
+slots:
+  - id: slides
+    name: Slides
+    allowedComponents:
+      - utsDarkTitleSlide
+      - utsSimpleBackground1
+      - utsSimpleBackground3
+      - utsColumnsSlide
+      - $personalization
+      - $test
+      - $localization
+      - utsSimpleSlide
+      - utsSimpleBackground2
+      - utsSimpledWith2ColumnsFullScreen
+    inheritAllowedComponents: false
+canBeComposition: true
+created: '2022-09-12T12:11:50.775195+00:00'
+updated: '2022-09-21T09:23:19.257799+00:00'

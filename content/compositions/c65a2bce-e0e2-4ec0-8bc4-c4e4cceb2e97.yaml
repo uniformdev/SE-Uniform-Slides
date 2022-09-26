@@ -1,0 +1,227 @@
+composition:
+  _name: Umbraco Charlotte
+  _id: c65a2bce-e0e2-4ec0-8bc4-c4e4cceb2e97
+  _slug: /slides/umbraco
+  type: slidedeck
+  parameters:
+    slideTheme:
+      type: select
+      value: Unpack the stack
+  slots:
+    slides:
+      - _id: 4e452935-7388-438c-abe4-bdb1a8331dd0
+        type: utsDarkTitleSlide
+        variant: ''
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 72cde7d6-7a8f-43ff-b44d-121981080697
+              source: default
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                ratio: ''
+                width: '1750'
+                format: png
+                height: '290'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663582068
+                publicId: Umbraco - Charlotte/i-uniform_dzq3et
+                createdAt: '2022-09-19T10:07:48Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          slideHeadline:
+            type: text
+            value: End of Demo
+      - _id: 72d7b93e-5a25-4662-97b4-bfc4de775639
+        type: utsColumnsSlide
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 0b0f15be-aae1-491d-ab38-b828554ca68d
+              source: default
+          slideHeadline:
+            type: text
+            value: What I did
+      - _id: aac812ee-6bdd-4a9e-8367-be79a3d4b7c3
+        type: utsSimpledWith2ColumnsFullScreen
+        variant: headlessisdifficult
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 53af5e0a-4a93-413b-b398-c83f35b12f9b
+              source: default
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663666232/Umbraco%20-%20Charlotte/headless_is_difficult_sqnsmf.png
+                ratio: ''
+                width: '724'
+                format: png
+                height: '810'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663666232
+                publicId: Umbraco - Charlotte/headless_is_difficult_sqnsmf
+                createdAt: '2022-09-20T09:30:32Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/headless_is_difficult_sqnsmf.png
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          slideHeadline:
+            type: text
+            value: Headless is difficult
+      - _id: 2b44efaa-b306-4b30-baec-546d3122ba25
+        type: utsSimpledWith2ColumnsFullScreen
+        variant: gartnerquote
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 5139a342-17b6-4649-916d-47febf785712
+              source: default
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663663506/Umbraco%20-%20Charlotte/Gartner_DXC_zylotu.png
+                ratio: ''
+                width: '650'
+                format: png
+                height: '544'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663663506
+                publicId: Umbraco - Charlotte/Gartner_DXC_zylotu
+                createdAt: '2022-09-20T08:45:06Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/Gartner_DXC_zylotu.png
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          slideHeadline:
+            type: text
+            value: DXC - Gartner
+      - _id: 32989e73-7c5b-4df0-83d7-5ffef6a4d0fe
+        type: utsSimpleBackground3
+        variant: simplyPut
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 2ba65702-dc3b-4ee0-8dcf-00addbccc81e
+              source: default
+          slideHeadline:
+            type: text
+            value: DXC - Simply put
+      - _id: 7b0624e3-47ac-4aa0-aa26-7d2f40287dcb
+        type: utsSimpleBackground2
+        variant: whatUniformDoes
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 40636e28-598e-4bd0-9ae3-f0716de62238
+              source: default
+          slideHeadline:
+            type: text
+            value: DXC - What Uniform does
+      - _id: 4a0865f2-21f8-423a-bfc2-d0a761176b2f
+        type: utsSimpleSlide
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - f44c15e6-0890-429f-b3c5-80750fb813b3
+              source: default
+          slideHeadline:
+            type: text
+            value: Why Umracbo Heartcore
+      - _id: b054de4a-90d9-4a28-95ec-d8781da5beac
+        type: utsSimpleBackground3
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 6f8e8f26-4994-476b-9b86-166a2923e861
+              source: default
+          slideHeadline:
+            type: text
+            value: Uniform + Heartcore
+      - _id: d07eebfa-4dbd-41da-bc5b-cab6ff82cbdc
+        type: utsDarkTitleSlide
+        variant: qa
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 43b740e8-02d0-4129-ae62-20903075e718
+              source: default
+          image:
+            type: cloudinary-media-selector
+            value:
+              - alt: ''
+                url: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/fetch/v1663586509/https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                ratio: ''
+                width: '1750'
+                format: png
+                height: '290'
+                widths: ''
+                caption: ''
+                options: ''
+                version: 1663586509
+                publicId: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco
+                  - Charlotte/i-uniform_dzq3et.png
+                createdAt: '2022-09-19T11:21:50Z'
+                previewUrl: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/fetch/q_auto:low,f_auto,w_150/https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                resourceType: image
+                transformation: ''
+                globalImageOptions: ''
+          slideHeadline:
+            type: text
+            value: Q&A
+      - _id: a46bd4a0-a66d-4b58-af44-97d08f7e0c54
+        type: utsDarkTitleSlide
+        variant: qa
+        parameters:
+          entry:
+            type: heartcore
+            value:
+              ids:
+                - 09730855-2077-4580-8ea1-144a5ac0d577
+              source: default
+          slideHeadline:
+            type: text
+            value: Thank you
+created: '2022-09-12T12:11:53.806662+00:00'
+modified: '2022-09-26T12:27:53.932849+00:00'
+pattern: false

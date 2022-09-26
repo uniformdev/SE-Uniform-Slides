@@ -1,0 +1,27 @@
+id: utsColumnsSlide
+name: UTS - 3 Columns Slide
+icon: >-
+  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1660903385/Uniform%20Slides/ColumnsSlide_kihxuk.png
+parameters:
+  - id: slideHeadline
+    name: Slide Headline
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: entry
+    name: Entry
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      required: true
+      allowedContentTypes:
+        columnSlide:
+          name: 3 Column slide
+          alias: columnSlide
+useTeamPermissions: true
+slots: []
+titleParameter: slideHeadline
+canBeComposition: false
+created: '2022-09-12T12:11:50.755448+00:00'
+updated: '2022-09-19T14:12:36.191595+00:00'

@@ -1,0 +1,37 @@
+id: emailCta
+name: Email CTA
+icon: mail
+parameters:
+  - id: content
+    name: Content
+    type: heartcore
+    helpText: ''
+    typeConfig:
+      source: default
+      allowedContentTypes:
+        cTA:
+          name: CTA
+          alias: cTA
+  - id: image
+    name: image
+    type: cloudinary-media-selector
+    helpText: ''
+    typeConfig:
+      ratio: ''
+      widths: ''
+      multiSelect: false
+      defaultoptions: ''
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-13T07:38:00.731821+00:00'
+updated: '2022-09-20T22:12:39.119124+00:00'
+variants:
+  - id: dark
+    name: Dark
+  - id: blueWithImage
+    name: Blue with image
+  - id: redWithImage
+    name: Red with image
+  - id: darkWithImage
+    name: Dark with image

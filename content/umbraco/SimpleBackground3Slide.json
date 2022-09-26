@@ -1,0 +1,47 @@
+{
+  "allowCultureVariant": false,
+  "alias": "simpleBackground3Slide",
+  "compositions": [],
+  "groups": [
+    {
+      "name": "Content",
+      "sortOrder": 0,
+      "properties": [
+        {
+          "allowCultureVariant": false,
+          "alias": "slideTitle",
+          "label": "Slide Title",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 0,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "slideHeadline",
+          "label": "Slide Headline",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 1,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "slideText",
+          "label": "Slide Text",
+          "propertyEditorAlias": "Umbraco.TinyMCE",
+          "sortOrder": 2,
+          "validation": { "required": false }
+        }
+      ]
+    }
+  ],
+  "name": "Simple Background 3 Slide",
+  "_createDate": "2022-09-19T12:47:52.253Z",
+  "_id": "af41e0f7-8e23-4f1d-9cd0-dec8ec98bf68",
+  "_updateDate": "2022-09-19T12:47:52.253Z",
+  "_links": {
+    "self": {
+      "href": "https://api.umbraco.io/content/type/simpleBackground3Slide"
+    },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

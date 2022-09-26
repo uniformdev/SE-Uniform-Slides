@@ -1,0 +1,87 @@
+{
+  "allowCultureVariant": false,
+  "alias": "columnSlide",
+  "compositions": [],
+  "groups": [
+    {
+      "name": "Slide Content",
+      "sortOrder": 0,
+      "groups": [
+        {
+          "name": "Column 1",
+          "sortOrder": 0,
+          "properties": [
+            {
+              "allowCultureVariant": false,
+              "alias": "column1Headline",
+              "label": "Column1Headline",
+              "propertyEditorAlias": "Umbraco.TextBox",
+              "sortOrder": 0,
+              "validation": { "required": false }
+            },
+            {
+              "allowCultureVariant": false,
+              "alias": "column1Text",
+              "label": "Column1Text",
+              "propertyEditorAlias": "Umbraco.TinyMCE",
+              "sortOrder": 1,
+              "validation": { "required": false }
+            }
+          ]
+        },
+        {
+          "name": "Column 2",
+          "sortOrder": 1,
+          "properties": [
+            {
+              "allowCultureVariant": false,
+              "alias": "column2Headline",
+              "label": "Column2Headline",
+              "propertyEditorAlias": "Umbraco.TextBox",
+              "sortOrder": 0,
+              "validation": { "required": false }
+            },
+            {
+              "allowCultureVariant": false,
+              "alias": "column2Text",
+              "label": "Column2Text",
+              "propertyEditorAlias": "Umbraco.TinyMCE",
+              "sortOrder": 1,
+              "validation": { "required": false }
+            }
+          ]
+        },
+        {
+          "name": "Column 3",
+          "sortOrder": 2,
+          "properties": [
+            {
+              "allowCultureVariant": false,
+              "alias": "column3Headline",
+              "label": "Column3Headline",
+              "propertyEditorAlias": "Umbraco.TextBox",
+              "sortOrder": 0,
+              "validation": { "required": false }
+            },
+            {
+              "allowCultureVariant": false,
+              "alias": "column3Text",
+              "label": "Column3Text",
+              "propertyEditorAlias": "Umbraco.TinyMCE",
+              "sortOrder": 1,
+              "validation": { "required": false }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "3 Column slide",
+  "_createDate": "2022-09-19T07:46:29.577Z",
+  "_id": "538a09c9-81a7-4849-9720-cda591268353",
+  "_updateDate": "2022-09-19T07:46:29.577Z",
+  "_links": {
+    "self": { "href": "https://api.umbraco.io/content/type/columnSlide" },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "allowCultureVariant": false,
+  "alias": "cTA",
+  "compositions": [],
+  "groups": [
+    {
+      "name": "Content",
+      "sortOrder": 0,
+      "properties": [
+        {
+          "allowCultureVariant": false,
+          "alias": "title",
+          "label": "Title",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 0,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "subtitle",
+          "label": "Subtitle",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 1,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "ctaTitle",
+          "label": "ctaTitle",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 2,
+          "validation": { "required": false }
+        },
+        {
+          "allowCultureVariant": false,
+          "alias": "ctaLink",
+          "label": "ctaLink",
+          "propertyEditorAlias": "Umbraco.TextBox",
+          "sortOrder": 3,
+          "validation": { "required": false }
+        }
+      ]
+    }
+  ],
+  "name": "CTA",
+  "_createDate": "2022-09-20T14:57:17.717Z",
+  "_id": "a891aeb2-c6bf-4d04-8d86-ee53123870a7",
+  "_updateDate": "2022-09-20T14:57:17.717Z",
+  "_links": {
+    "self": { "href": "https://api.umbraco.io/content/type/cTA" },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

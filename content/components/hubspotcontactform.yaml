@@ -1,0 +1,29 @@
+id: hubspotcontactform
+name: HubspotContactForm
+icon: screen
+parameters:
+  - id: region
+    name: Region
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: portalId
+    name: Portal ID
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: formId
+    name: Form ID
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: target
+    name: HTML Target selector
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-12T12:15:15.385918+00:00'
+updated: '2022-09-12T12:15:51.878239+00:00'

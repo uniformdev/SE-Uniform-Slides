@@ -1,0 +1,19 @@
+id: emailFooter
+name: Email Footer
+icon: mail
+parameters:
+  - id: copyright
+    name: Copyright
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: legalText
+    name: Legal text
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-12T12:10:37.453859+00:00'
+updated: '2022-09-13T07:40:48.603035+00:00'

@@ -1,0 +1,28 @@
+id: page
+name: Page
+icon: file-document
+parameters:
+  - id: metaTitle
+    name: Meta Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - $personalization
+      - $test
+      - $localization
+      - hubspotcontactform
+    inheritAllowedComponents: false
+slugSettings:
+  unique: global
+  required: 'yes'
+  regularExpression: ''
+  regularExpressionMessage: ''
+canBeComposition: true
+created: '2022-09-12T12:11:50.23832+00:00'
+updated: '2022-09-12T12:16:16.666495+00:00'

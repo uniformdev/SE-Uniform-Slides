@@ -1,0 +1,58 @@
+{
+  "project": {
+    "pz": {
+      "sig": {
+        "visitorsfromgermany": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "ntl-country-code",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "DE"
+                }
+              },
+              {
+                "key": "ntl-country-code",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "NL"
+                }
+              }
+            ]
+          }
+        },
+        "launchCampaign": {
+          "str": 50,
+          "cap": 100,
+          "dur": "s",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "launch"
+                },
+                "queryName": "utm_campaign"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {}
+  }
+}

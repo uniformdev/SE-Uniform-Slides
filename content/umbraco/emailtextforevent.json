@@ -1,0 +1,29 @@
+{
+  "allowCultureVariant": false,
+  "alias": "emailTextForEvent",
+  "compositions": [],
+  "groups": [
+    {
+      "name": "content",
+      "sortOrder": 0,
+      "properties": [
+        {
+          "allowCultureVariant": false,
+          "alias": "text",
+          "label": "Text",
+          "propertyEditorAlias": "Umbraco.TinyMCE",
+          "sortOrder": 0,
+          "validation": { "required": false }
+        }
+      ]
+    }
+  ],
+  "name": "Email text for event",
+  "_createDate": "2022-09-20T21:02:54.803Z",
+  "_id": "6d237bc4-57b5-415c-87b1-539eb1a63514",
+  "_updateDate": "2022-09-20T21:02:54.803Z",
+  "_links": {
+    "self": { "href": "https://api.umbraco.io/content/type/emailTextForEvent" },
+    "root": { "href": "https://api.umbraco.io/content/type" }
+  }
+}

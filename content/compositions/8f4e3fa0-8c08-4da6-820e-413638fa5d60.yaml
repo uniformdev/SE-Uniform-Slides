@@ -1,0 +1,29 @@
+composition:
+  _name: Sign me up!
+  _id: 8f4e3fa0-8c08-4da6-820e-413638fa5d60
+  _slug: /
+  type: page
+  parameters:
+    metaTitle:
+      type: text
+      value: Sign up for the code!
+  slots:
+    content:
+      - _id: 01d84285-96ba-4f39-96bb-287d4636704f
+        type: hubspotcontactform
+        parameters:
+          formId:
+            type: text
+            value: 912f5dd8-0a9c-49be-9840-4507758e9f04
+          region:
+            type: text
+            value: na1
+          target:
+            type: text
+            value: '#hubspotForm'
+          portalId:
+            type: text
+            value: '7739361'
+created: '2022-09-12T12:12:53.105586+00:00'
+modified: '2022-09-20T21:49:28.828349+00:00'
+pattern: false
