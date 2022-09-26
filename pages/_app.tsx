@@ -8,6 +8,8 @@ const clientContext = createUniformContext();
 const { serverRuntimeConfig } = getConfig();
 const { outputType } = serverRuntimeConfig;
 
+//test
+
 function MyApp({
   Component,
   pageProps,
