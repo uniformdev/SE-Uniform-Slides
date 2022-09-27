@@ -31,8 +31,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: slideHeadline
 canBeComposition: false
-created: '2022-09-12T12:11:50.958147+00:00'
-updated: '2022-09-21T11:56:19.874364+00:00'
+created: '2022-09-27T08:41:50.965033+00:00'
+updated: '2022-09-27T08:41:50.965033+00:00'
 variants:
   - id: simplyPut
     name: Simply Put

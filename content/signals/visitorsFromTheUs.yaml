@@ -1,0 +1,16 @@
+id: visitorsFromTheUs
+name: Visitors from the US
+cap: 50
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - key: ntl-country-code
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: US
+dur: s
+description: ''
+str: 50

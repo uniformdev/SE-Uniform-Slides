@@ -9,22 +9,21 @@ composition:
       value: Unpack the stack
   slots:
     slides:
-      - _id: 4e452935-7388-438c-abe4-bdb1a8331dd0
+      - _id: d219fefb-1c43-46b8-a72c-d5b7848221ba
         type: utsDarkTitleSlide
-        variant: ''
         parameters:
           entry:
             type: heartcore
             value:
               ids:
-                - 72cde7d6-7a8f-43ff-b44d-121981080697
+                - e0278733-d106-4154-b985-ca729b99224c
               source: default
           image:
             type: cloudinary-media-selector
             value:
               - alt: ''
                 url: >-
-                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                  https://res.cloudinary.com/uniform-solution-engineering/image/fetch/v1663586509/https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
                 ratio: ''
                 width: '1750'
                 format: png
@@ -32,17 +31,19 @@ composition:
                 widths: ''
                 caption: ''
                 options: ''
-                version: 1663582068
-                publicId: Umbraco - Charlotte/i-uniform_dzq3et
-                createdAt: '2022-09-19T10:07:48Z'
+                version: 1663586509
+                publicId: >-
+                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco
+                  - Charlotte/i-uniform_dzq3et.png
+                createdAt: '2022-09-19T11:21:50Z'
                 previewUrl: >-
-                  https://res.cloudinary.com/uniform-solution-engineering/image/upload/q_auto:low,f_auto,w_150/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
+                  https://res.cloudinary.com/uniform-solution-engineering/image/fetch/q_auto:low,f_auto,w_150/https://res.cloudinary.com/uniform-solution-engineering/image/upload/v1663582068/Umbraco%20-%20Charlotte/i-uniform_dzq3et.png
                 resourceType: image
                 transformation: ''
                 globalImageOptions: ''
           slideHeadline:
             type: text
-            value: End of Demo
+            value: End of demo
       - _id: 72d7b93e-5a25-4662-97b4-bfc4de775639
         type: utsColumnsSlide
         parameters:
@@ -222,6 +223,6 @@ composition:
           slideHeadline:
             type: text
             value: Thank you
-created: '2022-09-12T12:11:53.806662+00:00'
-modified: '2022-09-26T12:27:53.932849+00:00'
+created: '2022-09-27T08:41:54.722751+00:00'
+modified: '2022-09-27T08:58:13.708208+00:00'
 pattern: false
