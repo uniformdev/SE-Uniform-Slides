@@ -32,8 +32,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: slideHeadline
 canBeComposition: false
-created: '2022-09-27T08:41:50.089972+00:00'
-updated: '2022-09-27T08:41:50.089972+00:00'
+created: '2022-09-27T10:05:52.580656+00:00'
+updated: '2022-09-27T10:05:52.580656+00:00'
 variants:
   - id: qa
     name: Q&A

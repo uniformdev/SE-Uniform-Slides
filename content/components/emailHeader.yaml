@@ -15,8 +15,8 @@ parameters:
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2022-09-27T08:41:49.844915+00:00'
-updated: '2022-09-27T08:41:49.844915+00:00'
+created: '2022-09-27T10:05:53.166543+00:00'
+updated: '2022-09-27T10:05:53.166543+00:00'
 variants:
   - id: dark
     name: Dark

@@ -23,8 +23,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: slideHeadline
 canBeComposition: false
-created: '2022-09-27T08:41:51.233597+00:00'
-updated: '2022-09-27T08:41:51.233597+00:00'
+created: '2022-09-27T10:05:52.996281+00:00'
+updated: '2022-09-27T10:05:52.996281+00:00'
 variants:
   - id: whatUniformDoes
     name: What Uniform Does

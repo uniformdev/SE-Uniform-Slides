@@ -26,5 +26,5 @@ slugSettings:
   regularExpression: ^\/emails\/.*$
   regularExpressionMessage: must begin with /emails/
 canBeComposition: true
-created: '2022-09-27T08:41:49.827711+00:00'
-updated: '2022-09-27T08:41:49.827711+00:00'
+created: '2022-09-27T10:05:52.319167+00:00'
+updated: '2022-09-27T10:05:52.319167+00:00'

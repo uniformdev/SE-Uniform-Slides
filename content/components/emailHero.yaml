@@ -15,8 +15,8 @@ parameters:
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2022-09-27T08:41:50.854033+00:00'
-updated: '2022-09-27T08:41:50.854033+00:00'
+created: '2022-09-27T10:05:52.351383+00:00'
+updated: '2022-09-27T10:05:52.351383+00:00'
 variants:
   - id: light
     name: Light
